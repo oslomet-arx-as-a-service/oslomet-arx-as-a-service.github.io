@@ -1,9 +1,37 @@
 
 
-.nav-title {
-font-family: 'Anton', sans-serif;
+.btitle {
+    
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 2.5em;
 }
 
-.btitle {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+.hero-div {
+    height: 40em;
+    background-size: cover; background-image: url('../resources/server-room.jpg');
+}
+
+
+.circle-div {
+    border-radius: 50%;
+    padding: 2em;
+    background-color: #609efd;
+    margin: auto;
+    width: 45%;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+.divider{
+    padding: 0px;
+    margin: 10px;    
+}
+
+
+@media only screen and (max-width: 700px) {
+    .circle-div {
+        width: 90%;
+    }
+
 }
